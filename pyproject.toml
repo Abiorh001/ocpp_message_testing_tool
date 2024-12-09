@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "message-testing-tool"
+version = "0.1.0"
+description = ""
+authors = ["Abiorh001 <abiolaadedayo1993@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+websocket = "^0.2.1"
+websockets = "^14.1"
+ocpp = "^1.0.0"
+pydantic-settings = "^2.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
